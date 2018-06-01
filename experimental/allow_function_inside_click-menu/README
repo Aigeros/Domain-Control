@@ -1,0 +1,34 @@
+Domain Control
+
+Block unwanted content with a few clicks.
+
+➤  It shows all requests of a website
+➤  Disable bad domains with a click
+➤  Speed up loading times
+➤  Fight procrastination
+
+Most websites are using 100+ http requests. That means a lot of data traffic - often from tracking companies, adservers, social media plugins and more.
+
+Decide yourself what should be loaded and what not. Domain Control is able to block those unwanted sources.
+
+The click-menu is used to show and control domains. A click on the ✘-button disables unwanted connections.
+
+Edit your personal blocklist in the options dialog and set *. wildcards to block all kinds of subdomains too.
+
+Once they are added, just reload the visited website and they're gone.
+
+★  Simple, tiny and fast
+★  Focused on low memory usage
+★  100% Vivaldi compatible
+
+1.0.18  -  added counter on badge
+1.0.08  -  better usability, faster code
+1.0.02  -  tested on Vivaldi, small hotfix
+
+======
+This extension is distributed under GNU GPL licence v3 or later.
+
+Please report bugs or feature-requests!
+eMail: add "@gmail.com" to my name.
+
+Domain Control is based on Domain whitelist (DW). Thank you, Dusan!

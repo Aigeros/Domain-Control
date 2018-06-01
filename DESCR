@@ -1,0 +1,45 @@
+# Description (21.05.18)
+
+## background.js
+	- background script
+		- number of recently loaded items on badge
+		- badge color		
+		- allow all if disabled
+			- block url entries in blocklist
+			- block subdomains (*.example.com)
+			- hide blocked on badge counter
+			- update badge		
+		- set webRequest handler		
+		- context-menu
+			- enable or disable extension		
+		- clear pop-up-menu when tab changes
+		- clear pop-up-menu when tab closes		
+		- receive message from pop-up or options
+			- reload lists
+			- send list of recently blocked
+			- deny domain
+		
+## list.js
+	- persistent blocklist
+		- list of blocked hostnames or urls
+		- list of blocked subdomains		
+		- load blocklist from local storage
+			- extract entries that starts with asterisk (example.com)
+		- save blocklist to local storage
+		
+## options.js
+	- options callbacks
+		- show list
+		- save list
+			- blocklist
+			- tell background script to reload list
+			
+## popup.js
+	- pop-up in browser action
+		- send message to deny domain
+		- add domain to list
+			- deny
+			- domain name
+		- render table with recently blocked domains
+			- domains
+		- ask background script for list of blocked domains

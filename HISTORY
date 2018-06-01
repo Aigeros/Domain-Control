@@ -1,0 +1,74 @@
+# History
+
+006 / 1.0.34 / 01-06-18
+- added context-menu to disable extension
+- optimized manifest.json
+- updated function definitions
+- updated code comments
+- updated readme
+- updated manifest
+
+005 / 1.0.32 / 12-05-18
+- added new auto-clear trigger when a tab is closed
+- added min-width in options-menu
+- updated min-height in options-menu
+- updated hint in options-menu
+- updated hint in pop-up-menu
+- updated pop-up-menu color
+- updated color of badge
+- updated code comments
+- updated readme
+- updated manifest
+
+004 / 1.0.18 / 22-05-17
+- added counter to badge
+- added color to counter
+- added auto-clear to counter
+- updated outline behavior in pop-up-menu
+- updated hint in options
+- updated to a new versioning
+- updated readme
+- updated manifest
+
+003 / 1.0.08 / 27-04-17
+- added auto-clear of findings to pop-up-menu
+- updated pop-up-menu color
+- updated pop-up-menu button hover-shadow to red
+- updated code with JSTool
+- changed pop-up-menu size to 100%
+- removed obsolete clear-findings in context-menu
+- removed distracting hover line in pop-up-menu
+- removed padding left in pop-up-menu
+- removed margin bottom in pop-up-menu
+- removed obsolete options-menu code
+- updated readme
+- updated manifest
+
+002 / 1.0.02 / 09-04-17
+- tested on Vivaldi
+- updated context-menu to stay permanent
+- updated options-menu hint
+- updated readme
+- updated manifest
+
+001 / 1.0.01 / 08-04-17
+- added wildcard function for blocklist
+- added new clear-findings to context-menu
+- added function to prevent pop-up-menu from auto-scrolling to top
+- added function to prevent resize of text area
+- added new google design for options-menu
+- added new high-definition icons
+- changed design of options-menu to a smaller size
+- changed save button to the right side
+- changed length of list in options-menu
+- changed title size in options-menu
+- changed pop-up-menu font size, width and length
+- changed pop-up-menu hint
+- changed wildcard hint
+- changed blacklist to blocklist
+- changed DW to DC
+- removed block-everything mechanism
+- removed obsolete whitelist code
+- updated icon sizes
+- updated readme
+- updated manifest

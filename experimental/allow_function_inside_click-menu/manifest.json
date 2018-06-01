@@ -1,0 +1,34 @@
+{
+   "author": {
+      "email": "aigeros.innov(a)gmail.com"
+   },
+   "background": {
+      "scripts": [ "list.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "24": "icon/24.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Domain Control"
+   },
+   "description": "Block unwanted content with a few clicks.",
+   "icons": {
+      "128": "icon/128.png",
+      "16": "icon/16.png",
+      "24": "icon/24.png",
+      "48": "icon/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmPl1we3hc3SYX8tUOW2IcxyHrcVdxvfgkCkIeYml55NNP7hcQDW0YGU5f6ObyoS1uAG/sXtsK4qRIpI8/U1dRsCcWGAcKq0d0ZsvqRwoanrwn3t6mPrJFrMTdVkjqlnGzdkXTXw9L/wRe2khT0OUtuKJ7y0UaKi/Em3m59zw8n5QZ+a/NAUMvK3E3NOQPzV1GYfLKYxulVSDaoSTRXO25BfzdWwccCK98KfKofbI9mOcHXJxMRDJk6TtWIJSLx1cGPc0XeW3eQj1nJrbMl4obrEKjDqS3el64hWWY/kJmaoBqm0a/rXy1h0K+HEGE9wl0SaB7tGjPeUn2M6tTttFDQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "40.0",
+   "name": "Domain Control",
+   "options_page": "options.html",
+   "options_ui": {
+      "chrome_style": false,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "webRequest", "webRequestBlocking", "unlimitedStorage", "storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.18"
+}

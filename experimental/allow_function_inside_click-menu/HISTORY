@@ -1,0 +1,68 @@
+======
+# release 004
+
+1.0.18 / 22-05-17
+
+- added counter on badge
+- added color to counter on badge
+- added auto-clear for counter on badge
+- updated wrong outline behaviour in click-menu
+- updated hint in click-menu
+- updated better versioning
+- updated readme
+- updated manifest
+
+======
+# release 003
+
+1.0.08 / 27-04-17
+
+- added auto-clear of findings behaviour
+- updated click-menu color
+- updated click-menu button hover shadow to red
+- updated code with JSTool
+- changed click-menu size to 100%
+- removed "clear findings" context menu, obsolete
+- removed distracting hover line in click-menu
+- removed padding left in click-menu
+- removed marging bottom in click-menu
+- removed some obsolte options menu code
+- updated readme
+- updated manifest
+
+======
+# release 002
+
+1.0.02 / 09-04-17
+
+- tested on Vivaldi
+- updated context menu to stay permanent
+- updated options menu hint
+- updated readme
+- updated manifest
+
+======
+# release 001
+
+1.0.01 / 08-04-17
+
+- added wildcard function for blocklist
+- added new "Clear findings" context menu
+- added function to prevent click-menu from auto scrolling to top
+- added function to prevent resize of textarea
+- added new google chrome style for options
+- added new hd icons
+- changed design of options menu to a smaller size
+- changed save button to the right side
+- changed length of list in options menu
+- changed title size in options menu
+- changed click-menu font size, witdh and lentgh
+- changed click-menu hint
+- changed wildcard hint
+- changed blacklist to blocklist
+- changed DW to DC
+- removed block-everything mechanism
+- removed whitelist code of block-everything mechanism
+- updated to correct icon sizes
+- updated readme
+- updated manifest
