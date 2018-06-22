@@ -12,7 +12,7 @@ Create your personal filter list with websites you want to block.
 
 Unlike a default list with tens of thousands entries, you are in control what is loaded and what not.
 
-Also will this result in higher performance because the blocklist will be way smaller.
+This will also result in higher performance because the block list will be way smaller.
 
 Decide yourself what should be loaded, the click-menu shows domains to block. A click on the ✘-button disables the connection to the domain. 
 
