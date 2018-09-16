@@ -12,11 +12,11 @@ Create your personal filter list with websites you want to block.
 
 Unlike some default list with over 10'000 entries, you are in control what is blocked and what not.
 
-This will also result in higher performance because the block list will be way smaller.
+This will also result in a higher brower-performance because the block list will be way smaller.
 
-Decide yourself what should be loaded, the click-menu shows domains to block. A click on the ✘-button disables the connection to the domain. 
+Decide yourself what should be loaded, the menu shows domains to block. A click on the ✘-button disables the connection to the domain. 
 
-Be careful to block not the wrong ones. Most websites need resources with terms like 'cdn', 'akamai', 'cloudflare' or 'static'.
+Be careful to block not the wrong ones, most websites need resources with terms like 'cdn', 'akamai', 'cloudflare' or 'static'.
 
 Edit your filter list in the options dialog and set *. wildcards to block subdomains too.
 
@@ -26,7 +26,7 @@ Once added, just reload the website and they're gone.
 ★  Focused on low memory usage
 ★  Open Source and future-proof
 
-1.0.35  -  updated options dialog
+1.0.36  -  updated options dialog
 1.0.34  -  new enable / disable function
 1.0.32  -  optimizations, faster code
 
