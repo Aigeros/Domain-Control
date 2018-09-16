@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Domain Control Options</title>
+	<title>Domain Control - Blocklist</title>
 	<style>
 	textarea {
+	display: block;
+	box-sizing: border-box;
 	min-height: 32em;
 	min-width: 32em;
 	resize: none;
@@ -12,9 +14,10 @@
 </head>
 	<body style="text-align:left;">
 	<font size="4">Blocklist</font>
-	<span style="float:right;"><button id="save">Save</button></span>
+	<span style="display:inline-block; width:309px;"></span>
+	<button id="save">Save</button>
 	<textarea id="blocklist"></textarea>
-	<label><b>Wildcards: *.example.com</label>
+	<label><b>Wildcards: *.example.com</b></label>
 	<script type="text/javascript" src="list.js"></script>
 	<script type="text/javascript" src="options.js"></script>
 	</body>
