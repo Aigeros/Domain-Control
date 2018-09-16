@@ -1,8 +1,15 @@
 # History
 
+007 / 1.0.35 / 16-09-18
+- changed options-menu size
+- removed obsolete html code
+- updated github link
+- updated readme
+- updated manifest
+
 006 / 1.0.34 / 23-06-18
 - added context-menu to disable extension
-- optimized manifest.json
+- updated manifest.json
 - updated function definitions
 - updated code comments
 - updated readme
