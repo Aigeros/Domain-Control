@@ -1,8 +1,9 @@
 # History
 
-007 / 1.0.35 / 16-09-18
+007 / 1.0.36 / 16-09-18
+- changed options-menu title
 - changed options-menu size
-- removed obsolete html code
+- updated options-menu html code
 - updated github link
 - updated readme
 - updated manifest
