@@ -1,8 +1,6 @@
 # Domain Control
 [https://chrome.google.com/webstore/detail/domain-control/ceiohjbelbolibgeilkbblaednjngpje]
 
-Block unwanted content with a few clicks.
-----
 ➤  It shows all requests of a website
 ➤  Disable bad domains with a click
 ➤  Speed up loading times
@@ -16,7 +14,7 @@ This will also result in higher performance because the block list will be way s
 
 Decide yourself what should be loaded, the click-menu shows domains to block. A click on the ✘-button disables the connection to the domain. 
 
-But be careful to block not the wrong ones. Most websites need resources with terms like 'cdn', 'akamai', 'cloudflare' or 'static'.
+Be careful to block not the wrong ones. Most websites need resources with terms like 'cdn', 'akamai', 'cloudflare' or 'static'.
 
 Edit your filter list in the options dialog and set *. wildcards to block subdomains too.
 
@@ -40,4 +38,3 @@ Some code is based on "DW"
 - Thank you, Dusan!
 
 Published under GNU GPL v3
-----
