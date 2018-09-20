@@ -18,7 +18,7 @@ Decide yourself what should be loaded, the menu shows domains to block. A click 
 
 Be careful to block not the wrong ones, most websites need resources with terms like 'cdn', 'akamai', 'cloudflare' or 'static'.
 
-Edit your filter list in the options dialog and use wildcards (*.) to block subdomains too.
+Edit your filter list in the options dialog and use wildcards (*.) to block subdomains, too.
 
 Once added, just reload the website and they're gone.
 
