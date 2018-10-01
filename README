@@ -1,8 +1,6 @@
 # Domain Control
 [https://chrome.google.com/webstore/detail/domain-control/ceiohjbelbolibgeilkbblaednjngpje]
 
-Block unwanted content with a few clicks.
-
 Create your own, personal filter list with websites you want block.
 
 ➤  It lists all connection requests of a website – also ads and trackers.
@@ -20,7 +18,7 @@ But be careful to block not the wrong ones, most websites need resources with te
 
 Edit your filter list in the options dialog and use wildcards (*.) to block subdomains, too.
 
-Once added, just reload your actual visited website and all filters will be active.
+Once added, just reload your visited website and all filters will be active.
 
 ★  Simple, effective and fast
 ★  Focused on low memory usage
