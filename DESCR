@@ -24,7 +24,7 @@
 		- list of blocked hostnames or urls
 		- list of blocked subdomains		
 		- load blocklist from local storage
-			- extract entries that starts with asterisk (example.com)
+			- extract entries that starts with asterisk (*.example.com)
 		- save blocklist to local storage
 		
 ## options.js
