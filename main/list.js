@@ -10,7 +10,7 @@ DC.blocklistSubdomain = [];
 
 // load blocklist from local storage
 DC.load = function () {
-	// extract entries that starts with asterisk (example.com)
+	// extract entries that starts with asterisk (*.example.com)
 	DC.blocklist = localStorage.hasOwnProperty('blockLIST') ? JSON.parse(localStorage.getItem('blockLIST')) : {};
 	var k;
 	DC.blocklistSubdomain = [];
