@@ -3,32 +3,33 @@
 
 Block unwanted content with a few clicks.
 
-➤  It shows all requests of a website
-➤  Disable bad domains with a click
-➤  Speed up loading times
-➤  Fight procrastination
+Create your own, personal filter list with websites you want block.
 
-Create your personal filter list with websites you want to block. 
+➤  It lists all connection requests of a website – also ads and trackers.
+➤  Disable unwanted pop-ups, flashing banners or dangerous websites.
+➤  Speed-up your browser with faster loading times and fewer data usage.
+➤  Fight procrastination and free the web of social media buttons and more.
 
 Unlike some default list with over 10'000 entries, you are in control what is blocked and what not.
 
-This will also result in a higher browser-performance because the block list will be way smaller.
+This will also result in a higher browser performance because the block list will be way smaller.
 
-Decide yourself what should be loaded, the menu shows domains to block. A click on the ✘-button disables the connection to the domain. 
+Decide yourself what should be loaded, the menu shows domains to block. A click on the ✘-button disables the connection to the domain.
 
-Be careful to block not the wrong ones, most websites need resources with terms like 'cdn', 'akamai', 'cloudflare' or 'static'.
+But be careful to block not the wrong ones, most websites need resources with terms like 'cdn', 'akamai', 'cloudflare' or 'static' to function properly.
 
 Edit your filter list in the options dialog and use wildcards (*.) to block subdomains, too.
 
-Once added, just reload the website and they're gone.
+Once added, just reload your actual visited website and all filters will be active.
 
 ★  Simple, effective and fast
 ★  Focused on low memory usage
 ★  Open Source and future-proof
+★  100% Vivaldi compatible
 
-1.0.39  -  updated options dialog
-1.0.34  -  new enable / disable function
-1.0.32  -  optimizations, faster code
+1.0.39 - updated options dialog
+1.0.34 - new enable / disable function
+1.0.32 - optimizations, faster code
 
 ====
 Feedback is welcome!
