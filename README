@@ -3,12 +3,12 @@
 
 Block unwanted content with a few clicks.
 ----
-Create your own, personal filter list with websites you want block.
+Create your own, personal filter list with domains you want to block.
 
-➤  It lists all connection requests of a website – also ads and trackers
-➤  Disable unwanted pop-ups, flashing banners or dangerous websites
-➤  Speed-up your browser with faster loading times and fewer data usage
-➤  Fight procrastination and free the web of social media buttons and more
+➤  See all connection requests of a website – also ads, trackers
+➤  Disable pop-ups, flashing banners or dangerous websites
+➤  Speed-up page loading times with reduced data usage
+➤  Free the web of social media buttons and more
 
 Unlike some default list with over 10'000 entries, you are in control what is blocked and what not.
 
@@ -20,12 +20,12 @@ But be careful to block not the wrong ones, most websites need resources with te
 
 Edit your filter list in the options dialog and use wildcards (*.) to block subdomains, too.
 
-Once added, reload your visited website and all filters will be active.
+Once added, reload the visited website and your filters will be active.
 
 ★  Simple, effective and fast
 ★  Focused on low memory usage
 ★  Open Source and future-proof
-★  100% Vivaldi compatible
+★  Vivaldi etc. compatible
 
 1.0.39 - updated options dialog
 1.0.34 - new enable / disable function
