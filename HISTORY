@@ -1,9 +1,9 @@
 # History
 
 008 / 1.0.41 / 16-12-18
+- updated background.js
 - updated badge color
 - updated pop-up-menu color
-- updated background.js
 - removed obsolete context-menu code
 - updated readme
 - updated manifest
