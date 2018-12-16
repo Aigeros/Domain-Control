@@ -4,14 +4,11 @@
 	- background script
 		- number of recently loaded items on badge
 		- badge color		
-		- allow all if disabled
-			- block url entries in blocklist
+		- block url entries in blocklist
 			- block subdomains (*.example.com)
 			- hide blocked on badge counter
 			- update badge		
-		- set webRequest handler		
-		- context-menu
-			- enable or disable extension		
+		- set webRequest handler			
 		- clear pop-up-menu when tab changes
 		- clear pop-up-menu when tab closes		
 		- receive message from pop-up or options
