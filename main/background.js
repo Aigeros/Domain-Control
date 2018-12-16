@@ -15,7 +15,7 @@ DC.updateBadge = function () {
 
 // badge color
 chrome.browserAction.setBadgeBackgroundColor({
-	color: "#909090"
+	color: "#9A9A9A"
 });
 
 // block url entries in blocklist
