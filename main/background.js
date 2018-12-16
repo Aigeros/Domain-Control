@@ -3,15 +3,11 @@
 
 var DC = DC || {};
 
-DC.enabled = true;
 DC.blockedDomains = {};
 
 // number of recently loaded items on badge
 DC.updateBadge = function () {
 	var b = Object.keys(DC.blockedDomains).length;
-	if (!DC.enabled) {
-		b = 'off';
-	}
 	chrome.browserAction.setBadgeText({
 		text: (b ? b.toString() : '')
 	});
@@ -22,14 +18,8 @@ chrome.browserAction.setBadgeBackgroundColor({
 	color: "#909090"
 });
 
-// allow all if disabled
+// block url entries in blocklist
 DC.beforeRequest = function (aDetails) {
-	if (!DC.enabled) {
-		return {
-			cancel: false
-		};
-	}
-	// block url entries in blocklist
 	var i,
 	u = new URL(aDetails.url);
 	if (DC.blocklist.hasOwnProperty(u.hostname)) {
@@ -61,27 +51,13 @@ chrome.webRequest.onBeforeRequest.addListener(
 },
 	['blocking']);
 
-// context-menu
-chrome.contextMenus.create({
-	id: "enabled",
-	title: "Enable",
-	type: "checkbox",
-	checked: true,
-	"contexts": ["browser_action"],
-	onclick: function (aMenuItem) {
-		// enable or disable extension
-		DC.enabled = aMenuItem.checked;
-		DC.updateBadge();
-	}
-});
-
 // clear pop-up-menu when tab changes
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
 	if (changeInfo.status == 'loading' && tab.active) {
 		DC.blockedDomains = {};
 		DC.updateBadge();
 	}
-})
+});
 // clear pop-up-menu when tab closes
 chrome.tabs.onRemoved.addListener(function (tabId) {
 	DC.blockedDomains = {};
