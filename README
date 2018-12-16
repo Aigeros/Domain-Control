@@ -5,9 +5,9 @@ Block unwanted content with a few clicks.
 ----
 Create your own, personal filter list with domains you want to block.
 
-➤  See all connection requests of a website – also ads, trackers
+➤  See all connection requests of a website (also ads + trackers)
 ➤  Disable pop-ups, flashing banners or dangerous websites
-➤  Speed-up page loading times with reduced data usage
+➤  Speed-up loading times with reduced data usage
 ➤  Free the web of social media buttons and more
 
 Unlike some default list with over 10'000 entries, you are in control what is blocked and what not.
@@ -20,7 +20,7 @@ But be careful to block not the wrong ones, most websites need resources with te
 
 Edit your filter list in the options dialog and use wildcards (*.) to block subdomains, too.
 
-Once added, reload the visited website and your filters will be active.
+Once added, reload the visited website and your filter will be active.
 
 ★  Simple, effective and fast
 ★  Focused on low memory usage
