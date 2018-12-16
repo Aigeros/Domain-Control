@@ -1,5 +1,13 @@
 # History
 
+008 / 1.0.41 / 16-12-18
+- updated badge color
+- updated pop-up-menu color
+- updated background.js code
+- removed obsolete context-menu
+- updated readme
+- updated manifest
+
 007 / 1.0.39 / 18-10-18
 - changed options-menu title
 - changed options-menu wildcards hint
@@ -24,14 +32,14 @@
 - updated hint in options-menu
 - updated hint in pop-up-menu
 - updated pop-up-menu color
-- updated color of badge
+- updated badge color
 - updated code comments
 - updated readme
 - updated manifest
 
 004 / 1.0.18 / 22-05-17
 - added counter to badge
-- added color to counter
+- added color to badge
 - added auto-clear to counter
 - updated outline behavior in pop-up-menu
 - updated hint in options
