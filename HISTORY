@@ -3,8 +3,8 @@
 008 / 1.0.41 / 16-12-18
 - updated badge color
 - updated pop-up-menu color
-- updated background.js code
-- removed obsolete context-menu
+- updated background.js
+- removed obsolete context-menu code
 - updated readme
 - updated manifest
 
@@ -85,7 +85,7 @@
 - changed blacklist to blocklist
 - changed DW to DC
 - removed block-everything mechanism
-- removed obsolete whitelist code
+- removed obsolete whitelist
 - updated icon sizes
 - updated readme
 - updated manifest
