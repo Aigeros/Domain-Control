@@ -1,10 +1,7 @@
 // background script
 'use strict';
-
 var DC = DC || {};
-
 DC.blockedDomains = {};
-
 // number of recently loaded items on badge
 DC.updateBadge = function () {
 	var b = Object.keys(DC.blockedDomains).length;
@@ -12,16 +9,14 @@ DC.updateBadge = function () {
 		text: (b ? b.toString() : '')
 	});
 };
-
 // badge color
 chrome.browserAction.setBadgeBackgroundColor({
 	color: "#9A9A9A"
 });
-
 // block url entries in blocklist
 DC.beforeRequest = function (aDetails) {
 	var i,
-	u = new URL(aDetails.url);
+		u = new URL(aDetails.url);
 	if (DC.blocklist.hasOwnProperty(u.hostname)) {
 		return {
 			cancel: true
@@ -43,14 +38,10 @@ DC.beforeRequest = function (aDetails) {
 	// update badge
 	DC.updateBadge();
 };
-
 // set webRequest handler
-chrome.webRequest.onBeforeRequest.addListener(
-	DC.beforeRequest, {
+chrome.webRequest.onBeforeRequest.addListener(DC.beforeRequest, {
 	urls: ["http://*/*", "https://*/*"]
-},
-	['blocking']);
-
+}, ['blocking']);
 // clear pop-up-menu when tab changes
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
 	if (changeInfo.status == 'loading' && tab.active) {
@@ -63,7 +54,6 @@ chrome.tabs.onRemoved.addListener(function (tabId) {
 	DC.blockedDomains = {};
 	DC.updateBadge(tabId);
 });
-
 // receive message from pop-up or options
 chrome.extension.onMessage.addListener(function (aRequest, aSender, aSendResponse) {
 	if (!aSender) {

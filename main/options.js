@@ -1,8 +1,6 @@
 // options callbacks
 'use strict';
-
 var DC = DC || {};
-
 window.addEventListener('DOMContentLoaded', function () {
 	// show list
 	DC.tb = document.getElementById('blocklist');
@@ -10,7 +8,7 @@ window.addEventListener('DOMContentLoaded', function () {
 	// save list
 	document.getElementById('save').addEventListener('click', function () {
 		var a,
-		i;
+			i;
 		// blocklist
 		DC.blocklist = {};
 		a = DC.tb.value.trim().split('\n');
