@@ -20,7 +20,7 @@ But be careful to block not the wrong ones, most websites need resources with te
 
 Edit your filter list in the options dialog and use wildcards (*.) to block subdomains, too.
 
-Once added, reload the visited website and your filter will be active.
+Once added, reload the visited website and your filters will be active.
 
 ★  Simple, effective and fast
 ★  Focused on low memory usage
