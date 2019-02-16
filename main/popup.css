@@ -5,12 +5,13 @@ ol {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	padding-right: 1em;
 	white-space: nowrap;
 	font-size: 13px
 }
 a {
 	text-decoration: none;
-	padding-right: 1em;
+	padding-right: 7px;
 	outline: none;
 }
 a:hover {
