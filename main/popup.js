@@ -11,7 +11,7 @@ DC.send = function (aCmd, aDomain) {
 // add domain to list
 DC.addOneDomain = function (aParent, aDomain) {
 	var li,
-		deny;
+	deny;
 	li = document.createElement('li');
 	// deny
 	deny = document.createElement('a');
@@ -32,8 +32,8 @@ DC.addOneDomain = function (aParent, aDomain) {
 // render table with recently blocked domains
 DC.renderList = function (aDomains) {
 	var i,
-		o = document.getElementById('list'),
-		n = document.createElement('ol');
+	o = document.getElementById('list'),
+	n = document.createElement('ol');
 	if (aDomains.length <= 0) {
 		o.innerText = 'Refresh this tab for new results (F5)';
 		return;

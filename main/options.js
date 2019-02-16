@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', function () {
 	// save list
 	document.getElementById('save').addEventListener('click', function () {
 		var a,
-			i;
+		i;
 		// blocklist
 		DC.blocklist = {};
 		a = DC.tb.value.trim().split('\n');

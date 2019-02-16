@@ -16,7 +16,7 @@ chrome.browserAction.setBadgeBackgroundColor({
 // block url entries in blocklist
 DC.beforeRequest = function (aDetails) {
 	var i,
-		u = new URL(aDetails.url);
+	u = new URL(aDetails.url);
 	if (DC.blocklist.hasOwnProperty(u.hostname)) {
 		return {
 			cancel: true
