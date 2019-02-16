@@ -1,13 +1,12 @@
 html, body {
 	background-color: #FAFAFA;
-	min-width: 16em;
 }
 ol {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	white-space: nowrap;
-	font-size: 100%
+	font-size: 13px
 }
 a {
 	text-decoration: none;
