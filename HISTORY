@@ -1,23 +1,27 @@
 # History
 
-009 / 1.0.44 / 16-02-19
+009 / 1.0.45 / 17-02-19
+- tested on macOS
 - updated pop-up-menu font size
 - updated pop-up-menu behaviour
+- updated options-menu font size
 - updated code structure
+- updated code comments
 - updated readme
 - updated manifest
 
 008 / 1.0.41 / 16-12-18
+- removed obsolete context-menu code
 - updated background.js
 - updated badge color
 - updated pop-up-menu color
-- removed obsolete context-menu code
+- updated code comments
 - updated readme
 - updated manifest
 
 007 / 1.0.39 / 18-10-18
-- changed options-menu title
-- changed options-menu wildcards hint
+- updated options-menu title
+- updated options-menu wildcards hint
 - updated options-menu size
 - updated options-menu html
 - updated github link
@@ -56,15 +60,15 @@
 
 003 / 1.0.08 / 27-04-17
 - added auto-clear of findings to pop-up-menu
-- updated pop-up-menu color
-- updated pop-up-menu button hover-shadow to red
-- updated code with JSTool
-- changed pop-up-menu size to 100%
 - removed obsolete clear-findings in context-menu
 - removed distracting hover line in pop-up-menu
 - removed padding left in pop-up-menu
 - removed margin bottom in pop-up-menu
 - removed obsolete options-menu code
+- updated pop-up-menu color
+- updated pop-up-menu button hover-shadow to red
+- updated code with JSTool
+- updated pop-up-menu size to 100%
 - updated readme
 - updated manifest
 
@@ -82,17 +86,17 @@
 - added function to prevent resize of text area
 - added new google design for options-menu
 - added new high-definition icons
-- changed design of options-menu to a smaller size
-- changed save button to the right side
-- changed length of list in options-menu
-- changed title size in options-menu
-- changed pop-up-menu font size, width and length
-- changed pop-up-menu hint
-- changed wildcard hint
-- changed blacklist to blocklist
-- changed DW to DC
 - removed block-everything mechanism
 - removed obsolete whitelist
+- updated design of options-menu to a smaller size
+- updated save button to the right side
+- updated length of list in options-menu
+- updated title size in options-menu
+- updated pop-up-menu font size, width and length
+- updated pop-up-menu hint
+- updated wildcard hint
+- updated blacklist to blocklist
+- updated DW to DC
 - updated icon sizes
 - updated readme
 - updated manifest
