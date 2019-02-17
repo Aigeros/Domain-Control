@@ -1,6 +1,7 @@
 // pop-up in browser action
 'use strict';
 var DC = DC || {};
+
 // send message to deny domain
 DC.send = function (aCmd, aDomain) {
 	chrome.runtime.sendMessage({
@@ -8,6 +9,7 @@ DC.send = function (aCmd, aDomain) {
 		domain: aDomain
 	}, function (aReply) {});
 };
+
 // add domain to list
 DC.addOneDomain = function (aParent, aDomain) {
 	var li,
@@ -29,6 +31,7 @@ DC.addOneDomain = function (aParent, aDomain) {
 	li.appendChild(document.createTextNode(aDomain));
 	aParent.appendChild(li);
 };
+
 // render table with recently blocked domains
 DC.renderList = function (aDomains) {
 	var i,
@@ -45,6 +48,7 @@ DC.renderList = function (aDomains) {
 	}
 	o.parentNode.replaceChild(n, o);
 };
+
 // ask background script for list of blocked domains
 window.addEventListener('DOMContentLoaded', function () {
 	chrome.runtime.sendMessage({

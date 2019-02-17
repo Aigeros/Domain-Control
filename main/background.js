@@ -2,6 +2,7 @@
 'use strict';
 var DC = DC || {};
 DC.blockedDomains = {};
+
 // number of recently loaded items on badge
 DC.updateBadge = function () {
 	var b = Object.keys(DC.blockedDomains).length;
@@ -9,10 +10,12 @@ DC.updateBadge = function () {
 		text: (b ? b.toString() : '')
 	});
 };
+
 // badge color
 chrome.browserAction.setBadgeBackgroundColor({
 	color: "#9A9A9A"
 });
+
 // block url entries in blocklist
 DC.beforeRequest = function (aDetails) {
 	var i,
@@ -38,10 +41,12 @@ DC.beforeRequest = function (aDetails) {
 	// update badge
 	DC.updateBadge();
 };
+
 // set webRequest handler
 chrome.webRequest.onBeforeRequest.addListener(DC.beforeRequest, {
 	urls: ["http://*/*", "https://*/*"]
 }, ['blocking']);
+
 // clear pop-up-menu when tab changes
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
 	if (changeInfo.status == 'loading' && tab.active) {
@@ -49,11 +54,13 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
 		DC.updateBadge();
 	}
 });
+
 // clear pop-up-menu when tab closes
 chrome.tabs.onRemoved.addListener(function (tabId) {
 	DC.blockedDomains = {};
 	DC.updateBadge(tabId);
 });
+
 // receive message from pop-up or options
 chrome.extension.onMessage.addListener(function (aRequest, aSender, aSendResponse) {
 	if (!aSender) {

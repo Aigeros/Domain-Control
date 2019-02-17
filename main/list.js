@@ -1,10 +1,13 @@
 // persistent blocklist
 'use strict';
 var DC = DC || {};
+
 // list of blocked hostnames or urls
 DC.blocklist = {};
+
 // list of blocked subdomains
 DC.blocklistSubdomain = [];
+
 // load blocklist from local storage
 DC.load = function () {
 	// extract entries that starts with asterisk (*.example.com)
@@ -19,6 +22,7 @@ DC.load = function () {
 		}
 	}
 };
+
 // save blocklist to local storage
 DC.save = function () {
 	localStorage.setItem('blockLIST', JSON.stringify(DC.blocklist));

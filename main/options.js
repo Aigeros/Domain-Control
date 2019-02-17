@@ -1,15 +1,17 @@
 // options callbacks
 'use strict';
 var DC = DC || {};
+
+// show list
 window.addEventListener('DOMContentLoaded', function () {
-	// show list
+	// sort list
 	DC.tb = document.getElementById('blocklist');
 	DC.tb.value = Object.keys(DC.blocklist).sort().join('\n');
 	// save list
 	document.getElementById('save').addEventListener('click', function () {
 		var a,
 		i;
-		// blocklist
+		// prepare list
 		DC.blocklist = {};
 		a = DC.tb.value.trim().split('\n');
 		for (i = 0; i < a.length; i++) {
