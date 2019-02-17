@@ -1,4 +1,4 @@
-# Description (16.12.18)
+# Description (17.02.18)
 
 ## background.js
 	- background script
@@ -27,9 +27,10 @@
 ## options.js
 	- options callbacks
 		- show list
-		- save list
-			- blocklist
-			- tell background script to reload list
+			- sort list
+			- save list
+				- prepare list
+				- tell background script to reload list
 			
 ## popup.js
 	- pop-up in browser action
