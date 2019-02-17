@@ -9,15 +9,16 @@
 - updated code comments
 - updated readme
 - updated manifest
+- removed obsolete options-menu code
 
 008 / 1.0.41 / 16-12-18
-- removed obsolete context-menu code
 - updated background.js
 - updated badge color
 - updated pop-up-menu color
 - updated code comments
 - updated readme
 - updated manifest
+- removed obsolete context-menu code
 
 007 / 1.0.39 / 18-10-18
 - updated options-menu title
@@ -60,17 +61,17 @@
 
 003 / 1.0.08 / 27-04-17
 - added auto-clear of findings to pop-up-menu
-- removed obsolete clear-findings in context-menu
-- removed distracting hover line in pop-up-menu
-- removed padding left in pop-up-menu
-- removed margin bottom in pop-up-menu
-- removed obsolete options-menu code
 - updated pop-up-menu color
 - updated pop-up-menu button hover-shadow to red
 - updated code with JSTool
 - updated pop-up-menu size to 100%
 - updated readme
 - updated manifest
+- removed obsolete clear-findings in context-menu
+- removed distracting hover line in pop-up-menu
+- removed padding left in pop-up-menu
+- removed margin bottom in pop-up-menu
+- removed obsolete options-menu code
 
 002 / 1.0.02 / 09-04-17
 - tested on Vivaldi
@@ -86,8 +87,6 @@
 - added function to prevent resize of text area
 - added new google design for options-menu
 - added new high-definition icons
-- removed block-everything mechanism
-- removed obsolete whitelist
 - updated design of options-menu to a smaller size
 - updated save button to the right side
 - updated length of list in options-menu
@@ -100,3 +99,5 @@
 - updated icon sizes
 - updated readme
 - updated manifest
+- removed block-everything mechanism
+- removed obsolete whitelist code
