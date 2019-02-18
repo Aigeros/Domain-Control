@@ -1,10 +1,11 @@
 # History
 
-009 / 1.0.45 / 17-02-19
+009 / 1.0.45 / 18-02-19
 - tested on macOS
 - updated pop-up-menu font size
 - updated pop-up-menu behaviour
 - updated options-menu font size
+- updated options-menu save button
 - updated code structure
 - updated code comments
 - updated readme
