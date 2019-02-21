@@ -83,4 +83,5 @@ chrome.extension.onMessage.addListener(function (aRequest, aSender, aSendRespons
 		DC.save();
 		break;
 	}
+	return true;
 });

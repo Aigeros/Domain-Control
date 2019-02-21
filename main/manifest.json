@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
 "name": "Domain Control",
-"version": "1.0.46",
+"version": "1.0.47",
 "description": "Block unwanted content with a few clicks.",
 "icons": {
 	"128": "icon128.png",
