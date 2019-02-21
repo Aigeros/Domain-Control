@@ -15,7 +15,7 @@ DC.addOneDomain = function (aParent, aDomain) {
 	var li,
 	deny;
 	li = document.createElement('li');
-	// deny
+	// deny domain
 	deny = document.createElement('a');
 	deny.style.color = 'red';
 	deny.href = '#';
@@ -41,7 +41,7 @@ DC.renderList = function (aDomains) {
 		o.innerText = 'Refresh this tab for new results (F5)';
 		return;
 	}
-	// domains
+	// sort domains
 	aDomains.sort();
 	for (i = 0; i < aDomains.length; i++) {
 		DC.addOneDomain(n, aDomains[i]);
