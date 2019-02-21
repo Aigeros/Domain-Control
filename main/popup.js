@@ -27,12 +27,12 @@ DC.addOneDomain = function (aParent, aDomain) {
 		return false;
 	};
 	li.appendChild(deny);
-	// domain name
+	// set domain name
 	li.appendChild(document.createTextNode(aDomain));
 	aParent.appendChild(li);
 };
 
-// render table with recently blocked domains
+// render table with blocked domains
 DC.renderList = function (aDomains) {
 	var i,
 	o = document.getElementById('list'),

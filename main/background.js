@@ -3,7 +3,7 @@
 var DC = DC || {};
 DC.blockedDomains = {};
 
-// show number of recently loaded items on badge
+// show number of loaded items on badge
 DC.updateBadge = function () {
 	var b = Object.keys(DC.blockedDomains).length;
 	chrome.browserAction.setBadgeText({
@@ -67,12 +67,12 @@ chrome.extension.onMessage.addListener(function (aRequest, aSender, aSendRespons
 		return;
 	}
 	switch (aRequest.cmd) {
-		// reload lists
+		// reload list
 	case 'reload':
 		DC.blockedDomains = {};
 		DC.load();
 		break;
-		// send list of recently blocked
+		// send list of blocked
 	case 'blocked':
 		aSendResponse(Object.keys(DC.blockedDomains));
 		break;
