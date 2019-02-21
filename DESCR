@@ -1,8 +1,8 @@
-# Description (17.02.18)
+# Description (21.02.18)
 
 ## background.js
 	- background script
-		- show number of recently loaded items on badge
+		- show number of loaded items on badge
 		- set badge color		
 		- block url entries in blocklist
 			- block subdomains (*.example.com)
@@ -12,8 +12,8 @@
 		- clear pop-up-menu when tab changes
 		- clear pop-up-menu when tab closes		
 		- receive message from pop-up or options
-			- reload lists
-			- send list of recently blocked
+			- reload list
+			- send list of blocked
 			- deny domain
 		
 ## list.js
@@ -21,7 +21,7 @@
 		- list of blocked hostnames or urls
 		- list of blocked subdomains		
 		- load blocklist from local storage
-			- extract entries that starts with asterisk (*.example.com)
+			- extract entries with asterisks (*.example.com)
 		- save blocklist to local storage
 		
 ## options.js
@@ -36,8 +36,8 @@
 	- pop-up in browser action
 		- send message to deny domain
 		- add domain to list
-			- deny
-			- domain name
-		- render table with recently blocked domains
-			- domains
+			- deny domain
+			- set domain name
+		- render table with blocked domains
+			- sort domains
 		- ask background script for list of blocked domains
