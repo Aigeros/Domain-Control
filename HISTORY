@@ -1,7 +1,8 @@
 # History
 
-009 / 1.0.45 / 18-02-19
+009 / 1.0.47 / 21-02-19
 - tested on macOS
+- updated background.js with return-true
 - updated pop-up-menu font size
 - updated pop-up-menu behaviour
 - updated options-menu font size
