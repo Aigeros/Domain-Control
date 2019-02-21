@@ -2,8 +2,8 @@
 
 ## background.js
 	- background script
-		- number of recently loaded items on badge
-		- badge color		
+		- show number of recently loaded items on badge
+		- set badge color		
 		- block url entries in blocklist
 			- block subdomains (*.example.com)
 			- hide blocked on badge counter
