@@ -3,7 +3,7 @@
 var DC = DC || {};
 DC.blockedDomains = {};
 
-// number of recently loaded items on badge
+// show number of recently loaded items on badge
 DC.updateBadge = function () {
 	var b = Object.keys(DC.blockedDomains).length;
 	chrome.browserAction.setBadgeText({
@@ -11,7 +11,7 @@ DC.updateBadge = function () {
 	});
 };
 
-// badge color
+// set badge color
 chrome.browserAction.setBadgeBackgroundColor({
 	color: "#9A9A9A"
 });
